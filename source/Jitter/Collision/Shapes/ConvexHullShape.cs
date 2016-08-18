@@ -54,6 +54,7 @@ namespace Jitter.Collision.Shapes
         public override void CalculateMassInertia()
         {
             this.mass = Shape.CalculateMassInertia(this, out shifted, out inertia);
+			this.shifted = JVector.Zero;
         }
 
         /// <summary>

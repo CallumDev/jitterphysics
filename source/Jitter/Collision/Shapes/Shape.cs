@@ -50,7 +50,7 @@ namespace Jitter.Collision.Shapes
         internal float mass = 1.0f;
 
         internal JBBox boundingBox = JBBox.LargeBox;
-        internal JVector geomCen = JVector.Zero;
+        public JVector geomCen = JVector.Zero;
 
         /// <summary>
         /// Gets called when the shape changes one of the parameters.
